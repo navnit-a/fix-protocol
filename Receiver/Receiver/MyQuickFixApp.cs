@@ -1,4 +1,5 @@
-﻿using QuickFix;
+﻿using System;
+using QuickFix;
 using QuickFix.Fields;
 
 namespace Receiver
@@ -32,6 +33,7 @@ namespace Receiver
 
         public void OnCreate(SessionID sessionID)
         {
+            Console.Write(sessionID);
             // OnCreate - this method is called whenever a new session is created.
         }
 
