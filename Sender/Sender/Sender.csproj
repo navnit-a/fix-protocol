@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="QuickFIXn.Core" Version="1.10.0" />
+    <PackageReference Include="QuickFIXn.FIX4.0" Version="1.10.0" />
+    <PackageReference Include="QuickFIXn.FIX4.1" Version="1.10.0" />
+    <PackageReference Include="QuickFIXn.FIX4.2" Version="1.10.0" />
+    <PackageReference Include="QuickFIXn.FIX4.3" Version="1.10.0" />
+    <PackageReference Include="QuickFIXn.FIX4.4" Version="1.10.0" />
+    <PackageReference Include="QuickFIXn.FIX5.0" Version="1.10.0" />
+  </ItemGroup>
+
 </Project>
