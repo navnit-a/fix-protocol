@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver\Receiver.csproj", "{FC7F959F-CF27-4B26-8E91-2FDA61D06E61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "..\Sender\Sender\Sender.csproj", "{ECC752F4-562D-446E-8BE3-013B5A828E43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC7F959F-CF27-4B26-8E91-2FDA61D06E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7F959F-CF27-4B26-8E91-2FDA61D06E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7F959F-CF27-4B26-8E91-2FDA61D06E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7F959F-CF27-4B26-8E91-2FDA61D06E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC752F4-562D-446E-8BE3-013B5A828E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC752F4-562D-446E-8BE3-013B5A828E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC752F4-562D-446E-8BE3-013B5A828E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC752F4-562D-446E-8BE3-013B5A828E43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18DF24B0-9924-49C1-88F9-5577CA801DB3}
+	EndGlobalSection
+EndGlobal
