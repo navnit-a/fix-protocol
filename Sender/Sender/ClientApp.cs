@@ -79,7 +79,9 @@ namespace Sender
         private void SendMessage(Message m)
         {
             if (_session != null)
-                _session.Send(m);
+            {
+                var isSent = _session.Send(m);
+            }
             else
                 // This probably won't ever happen.
                 Console.WriteLine("Can't send message: session not created.");
